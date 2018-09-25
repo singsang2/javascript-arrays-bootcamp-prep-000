@@ -30,3 +30,7 @@ function destructivelyRemoveElementFromBeginningOfArray(a){
   a.shirt()
   return a
 }
+
+function removeElementFromBeginningOfArray(a){
+  return a.slice(1)
+}
