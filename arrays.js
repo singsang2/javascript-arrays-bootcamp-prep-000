@@ -27,7 +27,7 @@ function accessElementInArray(a, i){
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(a){
-  a.shirt()
+  a.shift()
   return a
 }
 
@@ -35,3 +35,9 @@ function removeElementFromBeginningOfArray(a){
   return a.slice(1)
 }
 
+function destructivelyRemoveElementFromEndOfArray(a){
+  a.pop()
+  return a
+}
+
+function 
